@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="topscript.js"></script>
+    <title>Top Brand</title>
+  </head>
+  <body>
+    <header>
+      <h1>Top Brand</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="product">
+      <div class="product-images">
+        <img src="blaz1.jpg" alt="Red Product" id="product-img" />
+      </div>
+      <!-- <div class="product-images">
+        <img src="Blaz2.jpeg" alt="Red Product" id="product-img" />
+      </div> -->
+      <!-- <div class="product-images">
+        <img src="blaz1.jpg" alt="Red Product" id="product-img" />
+      </div> -->
+      <div class="color-options">
+        <label for="color-select">Color:</label>
+        <select id="color-select" onchange="changeProductColor(this.value)">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+        </select>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Top Brand CSS. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
